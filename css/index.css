@@ -153,6 +153,7 @@ header {
     float: inline-start;
     width: 100%;
     padding: 10px;
+    padding-bottom: 10px;
 }
 header nav {
     display: flex;
@@ -197,4 +198,19 @@ header nav {
 }
 #box10 {
     background-color: dodgerblue;
+}
+.aboutcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+}
+.about-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    padding-top: 10px;
 }
